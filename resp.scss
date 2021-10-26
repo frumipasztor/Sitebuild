@@ -1,0 +1,101 @@
+@media screen and (max-width: 1600px) {
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+//ipad pro
+@media screen and (max-width: 1024px) {
+}
+//ipad
+@media screen and (max-width: 768px) {
+  .navbar {
+    .navitems {
+      width: 90vw;
+    }
+  }
+  .header {
+    .headertxt {
+      width: 90vw;
+      h1{
+          font-size: 45pt;
+      }
+      h2{
+          font-size: 25pt;
+      }
+    }
+  }
+  .cards {
+    width: 90vw;
+    flex-wrap: wrap;
+    .card {
+      margin: 15px 5px;
+    }
+  }
+  .infobox {
+    width: 90vw;
+    padding: 25px 25px 25px 150px;
+
+  }
+  .socials {
+    width: 90vw;
+  }
+}
+//Surface Duo
+@media screen and (max-width: 540px) {
+    .navbar{
+        .navitems{
+            flex-wrap: wrap;
+            .logo{
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .header{
+        .headertxt{
+            h1{
+                font-size: 30pt;
+                margin-left: 50px;
+            }
+            h2{
+                font-size: 20pt;
+                margin-left: 0px;
+            }
+        }
+    }
+}
+//iPhone6/7/8 Plus
+@media screen and (max-width: 414px) {
+    .header{
+        .headertxt{
+            h1{
+                font-size: 30pt;
+                margin-left: 0px;
+            }
+            h2{
+                font-size: 20pt;
+                margin-left: 0px;
+            }
+        }
+    }
+    .infobox{
+        padding: 25px;
+    }
+
+}
+//iphoneX{
+@media screen and (max-width: 375px) {
+
+}
+
+//iphone 5/SE
+//Galaxy fold
+
+@media screen and (max-width: 320px) {
+    
+}
+//galaxy fold
+@media screen and (max-width: 280px) {
+}

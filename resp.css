@@ -1,0 +1,62 @@
+@media screen and (max-width: 768px) {
+  .navbar .navitems {
+    width: 90vw;
+  }
+  .header .headertxt {
+    width: 90vw;
+  }
+  .header .headertxt h1 {
+    font-size: 45pt;
+  }
+  .header .headertxt h2 {
+    font-size: 25pt;
+  }
+  .cards {
+    width: 90vw;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .cards .card {
+    margin: 15px 5px;
+  }
+  .infobox {
+    width: 90vw;
+    padding: 25px 25px 25px 150px;
+  }
+  .socials {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .navbar .navitems {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .navbar .navitems .logo {
+    margin-bottom: 15px;
+  }
+  .header .headertxt h1 {
+    font-size: 30pt;
+    margin-left: 50px;
+  }
+  .header .headertxt h2 {
+    font-size: 20pt;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header .headertxt h1 {
+    font-size: 30pt;
+    margin-left: 0px;
+  }
+  .header .headertxt h2 {
+    font-size: 20pt;
+    margin-left: 0px;
+  }
+  .infobox {
+    padding: 25px;
+  }
+}
+/*# sourceMappingURL=resp.css.map */
